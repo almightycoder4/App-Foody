@@ -1,0 +1,43 @@
+body {
+  background-color: #f5e61e;
+}
+#foodlist {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  margin: auto;
+}
+#meals {
+  border-radius: 20px;
+  box-shadow: rgba(195, 10, 10, 0.35) 0px 5px 15px;
+  padding: 10px;
+  font-size: large;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#meals > img {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+}
+#welmsg {
+  text-align: center;
+  margin-top: 80px;
+}
+#container {
+  text-align: center;
+}
+#searchbar > input {
+  width: 300px;
+  height: 30px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: large;
+  font-family: cursive;
+  color: crimson;
+  margin-bottom: 20px;
+}

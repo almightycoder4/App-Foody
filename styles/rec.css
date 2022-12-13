@@ -1,0 +1,50 @@
+body {
+  font-family: cursive;
+}
+#image {
+  width: 400px;
+}
+#category {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: xx-large;
+  font-weight: 700;
+
+  margin: 5%;
+  background-color: antiquewhite;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#ingd {
+  display: grid;
+  justify-content: space-evenly;
+  font-size: medium;
+  font-weight: 700;
+  background-color: antiquewhite;
+  margin: 5%;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#instruct {
+  border: 2px solid goldenrod;
+  font-size: medium;
+  font-weight: 700;
+  margin: 5%;
+  background-color: antiquewhite;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#button {
+  height: 50px;
+  width: 400px;
+  font-size: x-large;
+  font-family: cursive;
+  background-color: cornsilk;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 600;
+}
+#button:hover {
+  background-color: red;
+  cursor: pointer;
+}

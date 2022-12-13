@@ -1,0 +1,40 @@
+#navbar2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+  font-weight: 800;
+  font-family: cursive;
+  background-color: rgb(215, 237, 237);
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+#navbar2 > a {
+  background-color: rgb(105, 93, 76);
+  color: aliceblue;
+  width: 200px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+}
+#navbar2:hover {
+  background-color: rgb(167, 167, 167);
+}
+#hiddenUser {
+  display: none;
+}
+#hiddenSgout {
+  display: none;
+}
+#hiddenl {
+  display: none;
+}
+#hiddensu {
+  display: none;
+}
+#hiddensgu {
+  display: none;
+}
